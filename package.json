@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "build-gp": "ng build --base-href /tea-shop/",
     "test": "ng test"
+
   },
   "private": true,
   "dependencies": {
