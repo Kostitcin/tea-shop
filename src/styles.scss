@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  --bs-nav-link-padding-x: 0.5rem;
+  --bs-nav-link-padding-y: 0rem;
+}
+
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.content-wrapper {
+  flex: 1 0 auto;
+}
+
+.slider-wrapper {
+  width: 100%;
+  margin: 72px auto;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer-component {
+  flex: 0 0 auto;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

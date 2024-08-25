@@ -1,0 +1,134 @@
+<app-popup></app-popup>
+<section>
+  <div class="container-fluid slider-wrapper p-0 d-flex justify-content-center align-items-center">
+    <img class="img-fluid" src="assets/img/1.png" alt="Slide 1">
+  </div>
+</section>
+
+<section>
+  <div class="container-fluid mt-5">
+    <div class="text-center fs-2 fw-bold mb-4">Ответы на часто задаваемые вопросы</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 mx-auto gy-2">
+      <div class="accordion ps-2" id="accordionExample" ngbAccordion>
+        <div class="accordion-item border-0 mb-3" ngbAccordionItem [collapsed]="false">
+          <h2 class="accordion-header" id="headingOne" ngbAccordionHeader>
+            <button class="accordion-button bg-primary text-white pt-4 pb-4 rounded-2" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne" ngbAccordionButton>
+              Собираете ли вы подарочные боксы?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+               data-bs-parent="#accordionExample" ngbAccordionCollapse>
+            <div class="accordion-body pt-4 pb-4" ngbAccordionBody>
+              <ng-template>
+              Да, у нас есть такая услуга. Мы можем собрать подарочный бокс на любой вкус, объем и
+              стоимость!
+              </ng-template>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item border-0 mb-3" ngbAccordionItem>
+          <h2 class="accordion-header" id="headingTwo" ngbAccordionHeader>
+            <button class="accordion-button collapsed bg-primary text-white pt-4 pb-4 rounded-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo" ngbAccordionButton>
+              Сколько у вас разновидностей чая?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+               data-bs-parent="#accordionExample" ngbAccordionCollapse>
+            <div class="accordion-body pt-4 pb-4" ngbAccordionBody>
+              <ng-template>
+              У нас в наличии более 50 различных сортов чая, включая классические сорта, такие как черный,
+              зеленый
+              и белый чай, а также уникальные миксы и ароматизированные вариации
+              </ng-template>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item border-0 mb-3" ngbAccordionItem>
+          <h2 class="accordion-header" id="headingThree" ngbAccordionHeader>
+            <button class="accordion-button collapsed bg-primary text-white pt-4 pb-4 rounded-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree" ngbAccordionButton>
+              В какой срок осуществляется доставка?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+               data-bs-parent="#accordionExample" ngbAccordionCollapse>
+            <div class="accordion-body pt-4 pb-4" ngbAccordionBody>
+              <ng-template>
+              Обычно сроки доставки составляют от 1 до 5 рабочих дней в зависимости от вашего
+              местоположения.
+              </ng-template>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item border-0 mb-3" ngbAccordionItem>
+          <h2 class="accordion-header" id="headingFour" ngbAccordionHeader>
+            <button class="accordion-button collapsed bg-primary text-white pt-4 pb-4 rounded-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour" ngbAccordionButton>
+              У вас обновляется ассортимент?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+               data-bs-parent="#accordionExample" ngbAccordionCollapse>
+            <div class="accordion-body pt-4 pb-4" ngbAccordionBody>
+              <ng-template>
+              Да, наш ассортимент постоянно обновляется! Мы постоянно следим за трендами и предпочтениями
+              наших
+              клиентов, чтобы предложить самые свежие и интересные продукты.
+              </ng-template>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item border-0 mb-5" ngbAccordionItem>
+          <h2 class="accordion-header" id="headingFive" ngbAccordionHeader>
+            <button class="accordion-button collapsed bg-primary text-white pt-4 pb-4 rounded-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive" ngbAccordionButton>
+              Какого объема у вас пачки чая?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+               data-bs-parent="#accordionExample" ngbAccordionCollapse>
+            <div class="accordion-body" ngbAccordionBody>
+              <ng-template>
+              Мы предлагаем разнообразие объемов упаковок чая, чтобы соответствовать разным потребностям
+              наших
+              клиентов. Наши пачки чая доступны в объемах от 50 грамм до 500 грамм.
+              </ng-template>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

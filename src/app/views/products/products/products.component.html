@@ -1,0 +1,23 @@
+<section>
+  <div class="container mb-5">
+    <div class="text-center fs-2 fw-bold mb-5">Наши чайные коллекции</div>
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3 g-4">
+      <div *ngFor="let product of products" class="col">
+        <div class="card shadow-sm h-100 d-flex flex-column">
+          <img class="img-fluid" src="{{product.image}}" alt="">
+          <div class="card-body ps-4 flex-grow-1">
+            <div class="card-text mb-3 fw-bold fs-5">
+              {{ product.title }}
+            </div>
+            <div class="card-text mb-3  overflow-hidden">
+              {{ product.description | truncate:120 }}
+            </div>
+            <button type="button" class="btn btn-primary mt-auto" (click)="viewDetails(product.id)">
+              <div class="ps-4 pe-4">Подробнее</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
